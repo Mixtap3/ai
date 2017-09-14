@@ -116,8 +116,8 @@ public class HMM1 {
     }
 
     public static void main(String[] args) throws IOException {
-//        File file = new File("testHmm1.txt");
-//        System.setIn(new FileInputStream(file));
+        File file = new File("testCase3.txt");
+        System.setIn(new FileInputStream(file));
 
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         HMM1 m = new HMM1(sc);
